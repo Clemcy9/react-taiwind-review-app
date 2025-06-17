@@ -9,13 +9,15 @@ A modern frontend boilerplate using:
 
 ---
 
-## 📦 Features
+## Features
 
-- ⚡ Super fast Vite dev environment
-- ♻️ Hot Module Replacement (HMR)
-- 🎨 Tailwind CSS pre-configured
-- 🔎 ESLint setup for clean code
-- 🧩 Minimal boilerplate, easily extensible
+This app is built to streamline the process of collecting and managing customer feedback, helping teams improve their services based on real user insights.
+
+- **User Feedback Submission** – Simple, intuitive form for customers to submit feedback
+- **Organized Feedback Display** – Categorized and sorted feedback for easy analysis
+- **Developer-Friendly Stack** – Built with React and Vite for fast, responsive UX
+- **Tailwind CSS Styling** – Clean, responsive UI with minimal effort
+- **Linted and Scalable Codebase** – Ensures maintainability and scalability
 
 ---
 
@@ -31,17 +33,21 @@ A modern frontend boilerplate using:
 ```bash
 git clone https://github.com/Clemcy9/react-tailwind-review-app.git
 
-cd react-tailwind-review-app
+cd react-tailwind-review-app/
 ```
+
+---
 
 ### 📦 Install Dependencies
 
 ```bash
 npm install
 
-####🎨 Tailwind CSS Setup
+### Tailwind CSS Setup
 npm install tailwindcss @tailwindcss/vite
 ```
+
+---
 
 ## Run the Project
 
@@ -65,8 +71,12 @@ Visit: http://localhost:5173
 └── vite.config.js
 ```
 
+---
+
 ## Useful Links
 
-React Docs
+[React documentation](https://reactjs.org/)
 
-Tailwind CSS Docs
+[Tailwind CSS Docs](https://tailwindcss.com/docs/installation/using-vite)
+
+[Javascript Tutorial (requires permission to access)](https://docs.google.com/presentation/d/1vD_ivm0RPbNFpumxOVx6mnlZpMt8HhxYFQTSdb0-fQs/edit?usp=sharing)
