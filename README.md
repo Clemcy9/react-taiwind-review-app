@@ -32,34 +32,35 @@ A modern frontend boilerplate using:
 git clone https://github.com/Clemcy9/react-tailwind-review-app.git
 
 cd react-tailwind-review-app
-📦 Install Dependencies
-bash
-Copy
-Edit
-npm install
-🎨 Tailwind CSS Setup
-npm install tailwindcss @tailwindcss/vite
+```
 
+### 📦 Install Dependencies
+
+```bash
+npm install
+
+####🎨 Tailwind CSS Setup
+npm install tailwindcss @tailwindcss/vite
+```
 
 ## Run the Project
-bash
-Copy
-Edit
+
+```bash
 npm run dev
 Visit: http://localhost:5173
+```
 
 🧪 Linting
 Check your code with ESLint:
 
+### your-project/
 
-
-##your-project/
 ├── public/
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── App.jsx
-│   └── main.jsx
+│ ├── assets/
+│ ├── components/
+│ ├── App.jsx
+│ └── main.jsx
 ├── index.html
 ├── package.json
 ├── tailwind.config.js
@@ -68,12 +69,4 @@ Check your code with ESLint:
 ##Useful Links
 React Docs
 
-Vite Docs
-
 Tailwind CSS Docs
-
-ESLint Docs
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-```
