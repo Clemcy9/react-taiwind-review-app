@@ -6,13 +6,13 @@ import Landingpage from './Pages/Landingpage'
 function App() {
   return (
     <>
-     <Router>
+    <Landingpage />
+    <Router>
       <Routes>
         <Route path="/" element={<Feedbackpage />} />
         <Route path="/studio" element={<Studioform />} />
       </Routes>
     </Router>
-    <Landingpage />
     </>
   );
 }
