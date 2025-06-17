@@ -1,12 +1,130 @@
-# React + Vite
+# 🚀 React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern frontend boilerplate using:
 
-Currently, two official plugins are available:
+- ⚛️ **React** – Component-based UI
+- ⚡ **Vite** – Fast dev server and build tool
+- 🎨 **Tailwind CSS** – Utility-first CSS framework
+- ✅ **ESLint** – Code quality and linting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Super fast Vite dev environment
+- ♻️ Hot Module Replacement (HMR)
+- 🎨 Tailwind CSS pre-configured
+- 🔎 ESLint setup for clean code
+- 🧩 Minimal boilerplate, easily extensible
+
+---
+
+## 🛠️ Getting Started
+
+### ✅ Prerequisites
+
+- **Node.js v18+**  
+  Download from [nodejs.org](https://nodejs.org/)
+
+### 📁 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-project-name.git
+cd your-project-name
+📦 Install Dependencies
+bash
+Copy
+Edit
+npm install
+🎨 Tailwind CSS Setup
+If not already set up, install and configure Tailwind CSS:
+
+bash
+Copy
+Edit
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Update your tailwind.config.js:
+
+js
+Copy
+Edit
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+In your main CSS file (e.g., src/index.css), add:
+
+css
+Copy
+Edit
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+And import it into main.jsx:
+
+js
+Copy
+Edit
+import './index.css';
+▶️ Run the Project
+bash
+Copy
+Edit
+npm run dev
+Visit: http://localhost:5173
+
+🧪 Linting
+Check your code with ESLint:
+
+bash
+Copy
+Edit
+npm run lint
+You can customize rules in .eslintrc.
+
+🏗️ Build for Production
+bash
+Copy
+Edit
+npm run build
+To preview the build locally:
+
+bash
+Copy
+Edit
+npm run preview
+🧾 Folder Structure
+arduino
+Copy
+Edit
+your-project/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+🔗 Useful Links
+React Docs
+
+Vite Docs
+
+Tailwind CSS Docs
+
+ESLint Docs
+
+🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+```
