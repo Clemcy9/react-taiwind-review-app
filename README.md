@@ -50,11 +50,9 @@ npm run dev
 Visit: http://localhost:5173
 ```
 
-🧪 Linting
-Check your code with ESLint:
-
 ### your-project/
 
+```paintext
 ├── public/
 ├── src/
 │ ├── assets/
@@ -65,8 +63,10 @@ Check your code with ESLint:
 ├── package.json
 ├── tailwind.config.js
 └── vite.config.js
+```
 
-##Useful Links
+## Useful Links
+
 React Docs
 
 Tailwind CSS Docs
