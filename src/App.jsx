@@ -7,6 +7,8 @@ import Grid from './pages/components/Grid'
 import Card from './pages/components/Card'
 import Footer from './pages/components/Footer'
 import Form from './pages/components/Feedback form/Form'
+import LandingPage from './pages/LandingPage'
+import FeedBack from './pages/FeedBack'
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
       {/* <Card/> */}
       <Footer/>
       <Form/>
+      <LandingPage/>
+      <FeedBack/>
     </div>
+   
   )
 }
 
