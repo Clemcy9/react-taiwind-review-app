@@ -1,4 +1,6 @@
 import React from 'react'
+import InputText from './InputText'
+
 
 function FeedbackForm() {
   return (
@@ -10,11 +12,9 @@ function FeedbackForm() {
 
       <div className='w-[1189px] p-10 gap-12'>
         <form action="#" className=' m-auto min-w-full  ' >
-            <label htmlFor="fullName" className='block text-2xl font-normal'>Name</label> 
-            <input type="text " placeholder='Jane Doe' id='fullName' className='min-w-full min-h-10 block m-auto rounded-xl border border-black mb-8 pl-3' />
+        <InputText label='Name' type='text' placeholder='Jane Doe'/>
 
-            <label htmlFor="email" className='block text-2xl font-normal'>Email</label>
-            <input type="email" placeholder='janedoe@gmail.com' id='email'className='min-w-full min-h-10 block m-auto rounded-xl border border-black mb-8 pl-3' />
+        <InputText label='Email' type='email' placeholder='janedoe@gmail.com'/>
             
             <label htmlFor="feedback" className='block text-2xl font-normal'>Your Feedback</label>
             <textarea name="feedback" id="feedback" placeholder='Type here' className='min-w-full min-h-30 block m-auto rounded-xl border border-black p-5'></textarea>

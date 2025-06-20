@@ -13,10 +13,7 @@ function Checkbox() {
 
         </div>
 
-      <div> 
-      <label htmlFor="typehere">If No, please tell us why</label> 
-      <input type="text " placeholder='Type here' id='typehere' className=' my-2 min-w-full min-h-10 block rounded border border-black mb-8 pl-2' />
-      </div>
+      
     </div>
   )
 }
