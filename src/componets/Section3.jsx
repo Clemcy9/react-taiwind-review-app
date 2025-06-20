@@ -43,7 +43,7 @@ function Section3() {
           />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-[60%] mx-auto">
           <Card
             image="/image2.jpg"
             title="Conference Hall"
