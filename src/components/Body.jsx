@@ -6,7 +6,7 @@ function Body() {
   return (
    <section className="bg-white py-20 px-10">
       {/* at netisens */}
-     <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+     <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
        <div className="md:w-1/2 mt-10 md:-mt-10">
          <h1 className="text-4xl font-bold text-[rgba(59,2,125,1)] mb-2"> AT NETISENS ICT</h1>
          <h1 className="text-4xl font-bold text-[rgba(59,2,125,1)] mb-2">WE VALUE YOUR FEEDBACK</h1>
@@ -32,15 +32,21 @@ function Body() {
      </div>
 
      {/* Blue div */}
-     <div className="container -mx-10 px-6 flex flex-col md:flex-row items-center justify-between bg-[rgba(59,2,125,1)] mt-20 h-70 w-full ">
+     <div className=" -mx-10 px-6 flex flex-col md:flex-row items-center justify-between bg-[rgba(59,2,125,1)] mt-20 h-70  ">
        <div className="md:w-1/2 mt-10 md:-mt-10">
          <h1 className="text-2xl font-bold text-white mb-2 ml-5 mt-10"> Innovate. Connect. Transform</h1>
          <h1 className="text-2xl text-white mb-2 ml-5">Your Tech Future with <br/>Netisens ICT</h1>
           <button className="bg-[rgba(27,148,7,1)] text-white px-7 py-3 rounded-lg hover:bg-green-700 transition ml-5 mt-5">Visit our website to learn more</button>
        </div>
        <div className="md:w-1/2 mt-10 md:mt-0">
-         <img src={second} alt="secondpic" className='- w-80 ml-55 rounded-lg'  />
+         <img src={second} alt="secondpic" className='- w-80 ml-65 rounded-lg'  />
        </div>
+     </div>
+
+     {/* the containers */}
+     <div className='text-center mt-40 '>
+      <h1 className='text-2xl font-semibold '>Service Feedback</h1>
+      <h6 className='text-black'>Let us know what your experience with any one<br/> of our services has been. </h6>
      </div>
     </section>
   )

@@ -4,7 +4,7 @@ import Body from "./components/Body";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="font-sans">
+    <div className="rubik">
       <Header />
       <Body />
       <Footer />
