@@ -3,16 +3,17 @@ import InfoGraphic from '../assets/infographics.png'
 
 function Article() {
   return (
-    <div className='flex flex-wrap items-center justify-between ' >
-        <div className='ml-20 max-w-lg'>
-         <h1 className='text-4xl font-bold text-[#33026C] '>AT NETIZENS ICT <br/> WE VALUE YOUR FEEDBACK</h1>
-         <p className='mt-6 max-w-lg'>Tell us how satisified you are with our services and how can we serve you better</p>
-         </div>
+    <div className='flex flex-wrap items-center justify-between mt-10 mx-20' >
+    
+        <div className=' w-[668px] h-52 mt-20 '>
+          <h1 className='text-5xl font-bold text-[#33026C] '>AT NETIZENS ICT <br/> WE VALUE YOUR FEEDBACK</h1>
+          <p className='text-2xl mt-6 max-w-[550px] font-normal'>Tell us how satisified you are with our services and how can we serve you better</p>
+        </div>
        
-       <div className='mr-20 max-w-md mt-10 md:mt-0 flex-1'>
-        <img src={InfoGraphic} alt="info graohics"/>
-       </div>
-       
+        <div className='ml-20 max-w-xl mt-10 md:mt-0 flex-1'>
+          <img src={InfoGraphic} alt="info graohics"/>
+        </div>  
+        
     </div>
   )
 }
