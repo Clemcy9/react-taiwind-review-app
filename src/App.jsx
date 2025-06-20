@@ -3,13 +3,14 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Button from "./components/Button";
+import Sample from "./components/Sample";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>Vite + React</h1>
+      {/* <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -22,7 +23,8 @@ function App() {
         />
         <p>hello</p>
         <Button name="Give feedback" location="home" outline="true" />
-      </div>
+      </div> */}
+      <Sample />
     </>
   );
 }
