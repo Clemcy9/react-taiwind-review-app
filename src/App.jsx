@@ -1,8 +1,13 @@
 import React from 'react'
+import LandingPage from './pages/LandingPage'
+import FeedBack from './pages/FeedBack'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <LandingPage/>
+      <FeedBack/>
+    </div>
   )
 }
 
