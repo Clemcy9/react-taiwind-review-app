@@ -45,7 +45,12 @@ function Cardcontainer() {
 
         <div className="flex flex-wrap gap-14 mt-8 w-full h-[930px] justify-center">
           {cardArr.map(
-          (card, index) => (<Feedbackcard key={index} name={card.name} src={card.src} to={card.to} />
+          (card, index) => (
+          <Feedbackcard 
+            key={index} 
+            name={card.name} 
+            src={card.src} 
+            to={card.to} />
           ))}
         </div>
       </div>
