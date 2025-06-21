@@ -1,30 +1,19 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import cardImage from "./assets/popcast.jpg";
 import "./App.css";
 import Button from "./components/Button";
 import Sample from "./components/Sample";
+import Card from "./components/Card";
+import CardsHolder from "./components/CardsHolder";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      {/* <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-
-        <Button
-          name="Vist our website to learn more"
-          location="home"
-          outline=""
-        />
-        <p>hello</p>
-        <Button name="Give feedback" location="home" outline="true" />
-      </div> */}
-      <Sample />
+      <Button name="Give feedback" location="home" outline="true" />
+      <Card src={cardImage} name="Trainings" />
+      <CardsHolder />
     </>
   );
 }

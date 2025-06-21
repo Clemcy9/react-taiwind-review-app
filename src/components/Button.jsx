@@ -12,13 +12,10 @@ function Button(props) {
   if (props.outline) {
     return (
       <button
-        className="hover:cursor-pointer font-rubik border border-[#3B027D] text-[#3B027D] px-4 py-2 rounded-md transition duration-150 hover:bg-[#3B027D] hover:text-white"
+        className="w-[337px] hover:cursor-pointer font-rubik border border-[#3B027D] text-[#3B027D] px-4 py-2 rounded-md transition duration-150 hover:bg-[#3B027D] hover:text-white"
         onClick={handleClick}
       >
-        <div
-          className="flex justify-between items-center w-full"
-          style={{ width: "337px" }}
-        >
+        <div className="flex justify-between items-center w-full">
           <span>{props.name}</span>
           <span className="text-xl">&gt;</span>
         </div>
