@@ -8,10 +8,13 @@ import Youtube from '../assets/youtubelogo.png'
 import Facebook from '../assets/facebooklogo.png'
 import Insta from '../assets/insta.jpg'
 
+
+
+
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <>
+    
     <footer className='flex flex-col justify-around text-white bg-gradient-to-r from-[#137802] to-[#23024A] w-screen max-w-full  h-[434px] mt-20'>
       <div className='flex justify-around items-center rounded-3xl mt-5 max-w-screen h-[270px]'>
           
@@ -43,34 +46,8 @@ function Footer() {
         <p className='text-[16px] font-medium'>Copyright &copy; {year} Netisens ICT. All rights reserved</p>
       </div>
     </footer>
-    {/* <div>
-      <div className='flex justify-between bg-fuchsia-500'>
-            <img className='  w-[314px] h-auto' src={Logo} alt="Netisens logo" />
-            <div className='flex flex-col mt-[97px]  gap-10 w-[329px] h-[152px]'>
-                
-                    
-                    <p>133, Atiku Abubakar road, Uyo.</p>
-                    <p>info@netisens.com</p>
-                    <p>+234 911 6875415</p>
-                
-            </div>
-            <div className='flex gap-7 w-[345px] h-[32px]'>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <p>Netisens ICT</p>
-            </div>
-
-        </div>
-        
-        <div className='bg-amber-400'>
-          <p >Copyright C 2025 Netisens ICT. All rights reserved</p>
-        </div>
-
-      
-    </div> */}
-    </>
+    
+            
   )
 }
 
