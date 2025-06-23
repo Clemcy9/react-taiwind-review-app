@@ -5,10 +5,12 @@ import FeedbackForm from '../Components/FeedbackForm';
 import Midsection from '../Components/Midsection';
 import Cardcontainer from '../Components/Cardcontainer';
 import Footer from '../Components/Footer';
+import ScrollToTop from '../Components/ScrollToTop';
 
 function Landingpage() {
   return (
     <div>
+      
       <Header />
       <Main />
       <FeedbackForm />

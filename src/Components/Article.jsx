@@ -7,7 +7,7 @@ function Article() {
       
       <div className="max-w-[668px] mt-20">
         <h1 className="text-5xl font-bold text-[#33026C]">
-          AT NETIZENS ICTttt <br /> WE VALUE YOUR FEEDBACK
+          AT NETIZENS ICT <br /> WE VALUE YOUR FEEDBACK
         </h1>
         <p className="text-2xl mt-6 max-w-[550px] font-normal">
           Tell us how satisfied you are with our services and how we can serve you better

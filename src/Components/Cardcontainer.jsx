@@ -10,27 +10,27 @@ const cardArr = [
     {
         src : Trainings,
         name : 'Trainings',
-        to: 'trainings'
+        to: '/trainings'
     },
      {
         src : Studio,
         name : 'Studio',
-        to: 'studio'
+        to: '/studio'
     },
      {
         src : Cowork,
         name : 'Co-working Space',
-        to: 'cowork'
+        to: '/cowork'
     },
      {
         src : Conference,
         name : 'Conference Hall',
-        to: 'conference'
+        to: '/conference'
     },
      {
         src : Business,
         name : 'Business Solutions',
-        to: 'business'
+        to: '/business'
     },
 ]
 
@@ -47,9 +47,14 @@ function Cardcontainer() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-10 mt-8 w-full justify-center mx-19">
-          {cardArr.map((card, index) => (
-            <Feedbackcard key={index} name={card.name} src={card.src} to={card.to} />
+        <div className="flex flex-wrap gap-14 mt-8 w-full h-[930px] justify-center">
+          {cardArr.map(
+          (card, index) => (
+          <Feedbackcard 
+            key={index} 
+            name={card.name} 
+            src={card.src} 
+            to={card.to} />
           ))}
         </div>
 
