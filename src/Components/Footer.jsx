@@ -3,21 +3,42 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <div class="flex bg-gradient-to-r from-[#137802] to-[#23024A] justify-between h-80 mt-30">
-            <div class="flex">
-                    <img class="w-70 h-20 ml-30 mt-30" src="/Netisense.png" alt="chuck Noris picture"></img>
+        <main class="h-90 w-full bg-gradient-to-r from-green-800 to-violet-950">
+            <section class="flex justify-between items-center p-20 ">
+                <div>
+                    <img class="w-[315.9659118652344]  " src="/Netisen logo.png" alt="" />
+                </div>
+                <div>
+                    <div class="flex items-center mb-5">
+                        <div class="mr-1 "><img src="location.png" alt="" /></div>
+                        <div> <h4 className='text-white'> 133, Atiku Abubakar road, Uyo.</h4></div>
+                    </div>
+                    <div class="flex items-center mb-5">
+                        <div class="mr-1 "> <img src="ic_round-email.svg" alt="" /></div>
+                        <div> <h4 className='text-white'> info@netisens.com</h4></div>
+                    </div>
+                    <div class="flex items-center mb-5">
+                        <div class="mr-1 "><img src="mingcute_phone-fill.svg" alt="" /></div>
+                        <div className='text-white'> <h4>+234 911 6875 415</h4></div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div> <img src="Vector.png" alt="" /></div>
+                    <div> <img src="Group.png" alt="" /></div>
+                    <div> <img class="w-6 h-6 rounded-full" src="XXX.jpg" alt="" /></div>
+                    <div> <img class="w-6 h-6 rounded-full" src="Inn.png" alt="" /></div>
+                    <div> <img src="Neti.png" alt="" /></div>
+                </div>
+            </section>
+            <div class="w-full h-px bg-white">
+
             </div>
-            <div class="mt-20">
-                    <p class="flex text-white mb-10"><><img src="/location.png" alt="" /></>&nbsp;133, Atiku Abubakar road, Uyo.</p>
-                    <p class="flex text-white"><img src="/email.png" alt=""/>&nbsp;info@netisens.com </p>
-                    <p class="flex text-white mt-10"><img src="/phonel.png" alt=""/>&nbsp; +234 911 6875415</p>
-            </div>
-            <div class="mt-35 mr-30">
-                    <img class="" src="/Frame 28.png" alt="" />
-            </div>
-        </div>
-        <hr class="border-t w-full border-gray-300"/>
-        <p class="py-6 bg-gradient-to-r from-[#137802] to-[#23024A] text-white h-20 text-center  ">Copyright &copy; 2025 Netisens ICT. All rights reserved</p>
+            <section class="h-px space-x-2 justify-center items-center flex mt-8">
+                <div><img src="Copyright.png" alt="" /></div>
+                <div><img src="Q.png" alt="" /></div>
+                <div><img src="2025.png" alt="" /></div>
+            </section>
+        </main>
     </div>
   )
 }
