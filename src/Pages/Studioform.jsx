@@ -11,6 +11,7 @@ function Studioform() {
   return (
     
     <div className="mx-20">
+      <form action="">
       <ScrollToTop/>
       <h2 className="text-center font-medium my-12 text-3xl text-[#3B027D]">
         Studio
@@ -69,14 +70,20 @@ function Studioform() {
         placeholder="Type here"
         className="min-w-full min-h-30 block m-auto rounded border border-black p-5"
       ></textarea>
-      <div className="flex flex-col justify-around mt-2.5 items-center h-11">
+      
+        <div className='flex justify-center mt-6'>
         <Button
+          type="button"
           text="Submit"
           className="bg-[#3B027D] hover:bg-[hsl(268,97%,35%)]  gap-2.5 py-2.5"
         />
+        </div>
+        </form>
+        <div className='flex justify-center mt-6'>
         <Outlinebutton text="Back to Home" to="/" />
+        </div>
       </div>
-    </div>
+    
   );
 }
 

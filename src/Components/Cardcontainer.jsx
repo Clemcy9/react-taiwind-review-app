@@ -36,7 +36,7 @@ const cardArr = [
 
 function Cardcontainer() {
   return (
-    <section className="flex flex-col border-2 border-amber-400 w-full items-center justify-center mt-16 min-h-screen ">
+    <section className="flex flex-col w-full items-center justify-center mt-16 min-h-screen ">
       
       <div className="flex flex-col items-center justify-center w-full max-w-7xl">
         <div className="flex flex-col items-center max-w-[567px] text-center">

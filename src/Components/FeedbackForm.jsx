@@ -1,5 +1,6 @@
 import React from 'react'
 import InputText from './InputText'
+import Button from './Button';
 
 
 function FeedbackForm() {
@@ -8,9 +9,9 @@ function FeedbackForm() {
       
       <div className="max-w-[567px] gap-3 text-center">
         <h3 className="text-[40px] font-medium">General Feedback</h3>
-        <p className="text-2xl font-normal">
+        <legend className="text-2xl font-normal">
           Let us know how your overall experience has been
-        </p>
+        </legend>
       </div>
 
       <div className='w-[1189px] p-10 gap-12'>
@@ -21,6 +22,9 @@ function FeedbackForm() {
             
             <label htmlFor="feedback" className='block text-2xl font-normal'>Your Feedback</label>
             <textarea name="feedback" id="feedback" placeholder='Type here' className='min-w-full min-h-30 block m-auto rounded-xl border border-black p-5'></textarea>
+            <div className='flex justify-center mt-6'>
+              <Button type="button" text="Submit"/>
+            </div>
         </form>
       </div>
 
