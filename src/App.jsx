@@ -13,14 +13,14 @@ import FeedBack from './pages/FeedBack'
 function App() {
   return (
     <div class= "box-border">
-      {/* <Navbar/>
+      <Navbar/>
       <Page/>
       <General/>
       <Banner/>
       <Grid/>
       <Card/>
       <Footer/>
-      <Form/> */}
+      <Form/>
       <LandingPage/>
       <FeedBack/>
     </div>
