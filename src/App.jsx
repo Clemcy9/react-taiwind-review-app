@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Landingpage/>
-      <FeedBack/>
+      <Feedbackpage/>
     </>
   )
 }

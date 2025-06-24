@@ -1,9 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Buttons from './Buttons'
+import Bg from '../components/Bg'
 
 function General() {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [feedback, setFeedback] = useState('')
+
+    function handleChangeName(e){
+        setName(e.target.value)
+        // console.log(e.target)
+    }
+
+    function handleChangeEmail(e){
+        setEmail(e.target.value)
+    }
+
+    function handleChangeFeedback(e){
+        setFeedback(e.target.value)
+    }
+
+    function handleSubmit(e){
+        e.preventDefault()
+        console.log(`form values are\nname:${name}\nemail:${email}\nfeedback:${feedback}`)
+        
+    }
+
   return (
-    <div>
+    <form onSubmit={handleSubmit}>
         <main className="border-2 mx-23 mt-10 rounded-xl mb-10 p-10">
             <section class="text-center">
                 <div>
@@ -16,19 +40,20 @@ function General() {
             <section className="">
                 <div>
                     <h4>Name</h4>
-                    <input className="border-1 w-full h-10 rounded-xl p-2 mb-5 " type="text" placeholder="Enter your name"  />
+                    <input className="border-1 w-full h-10 rounded-xl p-2 mb-5 " type="text" placeholder="Enter your name" name='uname' onChange={handleChangeName} value={name}/>
                 </div>
                 <div>
                     <h4> Email</h4>
-                    <input className="border-1 w-full h-10 rounded-xl p-2 mb-5" type="text" placeholder="janedoe@gmail.com"  />
+                    <input className="border-1 w-full h-10 rounded-xl p-2 mb-5" type="text" placeholder="janedoe@gmail.com" name='email' onChange={handleChangeEmail} value={email} />
                 </div>
                 <div>
                     <h4> Your feedback</h4>
-                    <textarea className="border-1 w-full rounded-xl p-2 h-80 top-0 mb-7" type="text" placeholder="Type here"  />
+                    <textarea className="border-1 w-full rounded-xl p-2 h-80 top-0 mb-7" type="text" placeholder="Type here" name='feedback' onChange={handleChangeFeedback} value={feedback} />
                 </div>
             </section>
+            <Bg/>
         </main>
-    </div>
+    </form>
   )
 }
 

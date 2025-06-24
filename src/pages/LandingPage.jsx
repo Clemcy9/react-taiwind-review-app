@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Menu from '../components/Menu'
 import General from '../components/General'
-import Bg from '../components/Bg'
 import Banner from '../components/Banner'
 import Cardshouse from '../components/Cardshouse'
 import Footer from '../components/Footer'
@@ -13,7 +12,6 @@ function Landingpage() {
         <Navbar/>
         <Menu/>
         <General/>
-        <Bg/>
         <Banner/>
         <Cardshouse/>
         <Footer/>
