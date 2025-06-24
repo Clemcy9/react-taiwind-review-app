@@ -10,7 +10,7 @@ import ScrollToTop from '../Components/ScrollToTop';
 function Landingpage() {
   return (
     <div>
-      
+      <ScrollToTop/>
       <Header />
       <Main />
       <FeedbackForm />
