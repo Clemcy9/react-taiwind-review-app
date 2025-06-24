@@ -7,7 +7,7 @@ function HouseOfCards() {
         <h1 class="text-center mt-30 font-bold text-3xl">Services Feedback</h1>
         <p class="text-center mt-3">Let us know what your experience with any one of</p>
         <p class="text-center">our services has been.</p>
-        <div class="flex mr-5 p-12">
+        <div class="flex mr-5 p-12 h-full">
             <Cards image="first.png" text="Trainings"/>
             <Cards image="Second.png" text="Studio"/>
             <Cards image="Third.png" text="Co-working Space"/> 

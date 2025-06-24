@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
+import Button from './Button';
 
 function TrainingFeedback() {
 
-  const [value, setValue]=useState(2);
+  const [value, setValue]=useState(0);
 
   const handleChange = (e)=>{
   const newValue = parseInt(e.target.value, 10);
@@ -148,14 +149,25 @@ function TrainingFeedback() {
           <br />
           <p class="mb-4 ml-10">How likely are you recommend this training to a friend?</p> 
           <div class="mb-4 ml-9 gap-4 w-full items-center flex">
-              <span class="">Not likely</span>
+              <span class="whitespace-nowrap">Not likely</span>
                    <div class="relative h-6 bg-[#BEBABA] rounded-lg overflow-hidden text-xs w-full">
           <div class="absolute top-0 left-0 h-full bg-[#137802] transition-all duration-300" style={{ width: `${(value / 10) * 100}%`, borderTopRightRadius: "12px",
             borderBottomRightRadius: "12px", borderTopLeftRadius: value === 10 ? "12px" : "0px", borderBottomLeftRadius: value === 10 ? "12px" : "0px",}}>
         </div>
         </div>
-              <span class="text-sm white">Extremely likely</span>
+              <span class="text-sm whitespace-nowrap">Extremely likely</span>
           </div>
+          <div class="mb-4 ml-10">
+            <label htmlFor="name">What was the least valuable aspect of the training for you?</label>
+            <br />
+            <textarea type="text" name="text" id="" placeholder='Type here'class="w-full px-2 py-2 border rounded-md h-70"></textarea>
+        </div> 
+        <br />
+        <br />
+        <div class="grid justify-center items-center">
+          <Button text='Submit' variant='submit'/>
+          <Button text='Back to Home' variant='backToHome'/>
+        </div>
         </form>
     </div>
   )
