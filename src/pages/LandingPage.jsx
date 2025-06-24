@@ -1,22 +1,24 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import IntroSection from '../Components/IntroSection'
-import Form from '../Components/Form'
-import HeroSection from '../Components/HeroSection'
-import HouseOfCards from '../Components/HouseOfCards'
-import Footer from '../Components/Footer'
+import Navbar from '../components/Navbar'
+import Menu from '../components/Menu'
+import General from '../components/General'
+import Bg from '../components/Bg'
+import Banner from '../components/Banner'
+import Cardshouse from '../components/Cardshouse'
+import Footer from '../components/Footer'
 
-function LandingPage() {
+function Landingpage() {
   return (
     <div>
         <Navbar/>
-        <IntroSection/>
-        <Form/>
-        <HeroSection/>
-        <HouseOfCards/>
+        <Menu/>
+        <General/>
+        <Bg/>
+        <Banner/>
+        <Cardshouse/>
         <Footer/>
     </div>
   )
 }
 
-export default LandingPage
+export default Landingpage

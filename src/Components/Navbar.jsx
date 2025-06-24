@@ -1,15 +1,23 @@
 import React from 'react'
-import Button from './Button'
+import Buttons from './Buttons'
+
+
+
 
 
 function Navbar() {
+    const Me = "Holla Holla"
   return (
-      <nav class='bg-[#33026C] justify-between flex h-17 w'> 
-        <img class="w-35 h-8 m-2 mt-3 pl-10" src="/Netisense.png" alt="chuck Noris picture"></img>
-
-      <Button text="Contact Us"/>
-      </nav>
-  
+    <div>
+        <nav className = "bg-violet-950 h-17 flex justify-between p-4 items-center w-full">
+            <div className =" ml-25">
+                <img className="cursor-pointer" src="/Netisen logo.png" alt="" />
+            </div>
+            <div>
+                <Buttons text="Contact Us" />
+            </div>
+        </nav>
+    </div>
   )
 }
 
