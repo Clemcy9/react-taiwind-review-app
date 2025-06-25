@@ -21,7 +21,7 @@ function Body() {
      <div className='border-[rgba(59,2,125,1)] border-1 rounded-2xl p-2 mt-10 text-center'> 
        <h1 className='text-2xl font-semibold mt-5'>General Feedback</h1>
        <p>Let us know what your overall experience has been</p>
-       <div clssName="w-full ">
+       <div>
          <h1 className='text-justify mt-10 ml-10.5'>Name</h1>
          <input type="text" placeholder='Jane Doe' className="w-270 px-4 py-2 border border-[rgba(59,2,125,1)] rounded-lg mt-1 " />
          <h1 className='text-justify mt-5 ml-10.5'>Email</h1>
@@ -41,12 +41,6 @@ function Body() {
        <div className="md:w-1/2 mt-10 md:mt-0">
          <img src={second} alt="secondpic" className='- w-80 ml-65 rounded-lg'  />
        </div>
-     </div>
-
-     {/* the containers */}
-     <div className='text-center mt-40 '>
-      <h1 className='text-2xl font-semibold '>Service Feedback</h1>
-      <h6 className='text-black'>Let us know what your experience with any one<br/> of our services has been. </h6>
      </div>
     </section>
   )

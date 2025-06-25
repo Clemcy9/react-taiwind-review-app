@@ -1,14 +1,15 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landingpage from "./Pages/Landingpage";
+import CoworkingForm from "./Pages/Coworkingform";
 function App() {
   return (
-    <div className="rubik">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landingpage />} />
+        <Route path="cowork" element={<CoworkingForm/>}/>
+      </Routes>
+    </Router>
   );
 }
 
