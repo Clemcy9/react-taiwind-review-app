@@ -46,7 +46,7 @@ function Cardcontainer() {
           </p>
         </div>
 
-        <div className="flex flex-wrap gap-14 mt-8 w-full h-[930px] justify-center">
+        <div className="flex flex-wrap gap-14 mt-8 w-full justify-center">
           {cardArr.map(
           (card, index) => (
           <Feedbackcard 

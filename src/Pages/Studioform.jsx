@@ -11,11 +11,12 @@ function Studioform() {
   return (
     
     <div className="mx-20">
-      <form action="">
+      
       <ScrollToTop/>
       <h2 className="text-center font-medium my-12 text-3xl text-[#3B027D]">
         Studio
       </h2>
+      <form >
       <DropdownSeclect />
       <RangeInput
         text="How would you rate your overall experience at our studio?"
