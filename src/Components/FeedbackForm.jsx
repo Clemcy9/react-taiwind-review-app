@@ -33,7 +33,7 @@ function FeedbackForm() {
       </div>
 
       {/* <div className='w-[1189px] p-10 gap-12'> */}
-        <div className='w-full max-w-4xl p-10 gap-12'>
+        <div className='w-full max-w-4xl p-2 md:p-10 gap-12'>
 
         <form action="#" className=' m-auto min-w-full  ' onSubmit={handleSubmit}>
         <InputText label='Name' type='text' placeholder='Jane Doe' name='name' value={form.name}  onChange={handleChange}/>

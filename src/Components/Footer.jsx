@@ -16,9 +16,9 @@ function Footer() {
   return (
     
     <footer className='flex flex-col justify-around text-white bg-gradient-to-r from-[#137802] to-[#23024A] w-screen max-w-full  h-[434px] mt-20'>
-      <div className='flex justify-around items-center rounded-3xl mt-5 max-w-screen h-[270px]'>
+      <div className='flex flex-col md:flex-row justify-around items-center rounded-3xl mt-5 max-w-screen h-[270px] space-y-4'>
           
-          <img className='  w-[314px] h-auto' src={Logo} alt="Netisens logo" />
+          <img className='' src={Logo} alt="Netisens logo" />
           
           <div className='flex flex-col justify-between  w-[359px] h-[152px]'>
               <div className='flex'>
@@ -34,14 +34,15 @@ function Footer() {
                 <p className='text-xl font-medium'>+234 911 6875415</p>
               </div>
           </div>
-          <div className='flex justify-between w-[345px] h-[32px]'>
+          <div className='flex justify-start gap-x-5'>
             <img src={Youtube} alt="" />
             <img src={Facebook} alt="" />
-            <img src={Twitter} alt="" className='rounded-[50%]'/>
-            <img src={Insta} alt="" className='rounded-[50%]'/>
+            <img src={Twitter} alt="" className=' w-[32px] rounded-[50%]'/>
+            <img src={Insta} alt="" className='w-[32px] rounded-[50%]'/>
             <p className='text-xl font-semibold'>Netisens ICT</p>
           </div>
-      </div><hr />
+      </div>
+      <hr />
       <div className='flex justify-center items-center max-w-full h-[50px]'>
         <p className='text-[16px] font-medium'>Copyright &copy; {year} Netisens ICT. All rights reserved</p>
       </div>

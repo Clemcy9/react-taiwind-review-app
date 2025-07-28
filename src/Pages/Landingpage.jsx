@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Components/Header';
-import Main from '../Components/Article';
+import Article from '../Components/Article';
 import FeedbackForm from '../Components/FeedbackForm';
 import Midsection from '../Components/Midsection';
 import Cardcontainer from '../Components/Cardcontainer';
@@ -12,7 +12,7 @@ function Landingpage() {
     <div>
       <ScrollToTop/>
       <Header />
-      <Main />
+      <Article />
       <FeedbackForm />
       <Midsection />
       <Cardcontainer/>
