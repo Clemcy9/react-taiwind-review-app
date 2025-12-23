@@ -43,6 +43,12 @@ npm install
 npm install tailwindcss @tailwindcss/vite
 ```
 
+### install react icons
+
+```bash
+npm install react-icons --save
+```
+
 ## Run the Project
 
 ```bash
